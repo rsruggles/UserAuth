@@ -1,0 +1,21 @@
+/* Navigation */
+li.menu-item a {
+  color: #b74c3e;
+}
+li.menu-item:hover {
+  background-color: #b74c3e;
+}
+li.menu-item a:visited {
+  color: #b74c3e;
+}
+li.menu-item a:hover {
+  color: #ffffff;
+}
+.img-brand {
+  /*max-width: 7.25em;
+  margin-top: 0.75em;*/
+  color: #b74c3e;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 70px;
+}
