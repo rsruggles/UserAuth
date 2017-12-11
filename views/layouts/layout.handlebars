@@ -55,7 +55,21 @@
         <div class="container">
           <div class="col-12">
             <h1>LoginApp</h1>
+            
+            {{#if success_msg}}
+              <div class="notice success">{{success_msg}}</div>
+            {{/if}}
+            
+            {{#if error_msg}}
+              <div class="notice alert">{{error_msg}}</div>
+            {{/if}}
+            
+            {{#if error}}
+              <div class="notice alert">{{error}}</div>
+            {{/if}}
+            
             {{{body}}}
+
           </div>
         </div>
       </div>

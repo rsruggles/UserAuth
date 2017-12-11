@@ -1,4 +1,11 @@
 <h2>Register</h2>
+{{#if errors}}
+  {{#each errors}}
+    <div class="notice error">
+      <p>Error: {{msg}}</p>
+    </div>
+  {{/each}}
+{{/if}}
 <form method="post" action="/users/register">
   <div class="calyx-form">
     <label>Name</label>
